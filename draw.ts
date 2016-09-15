@@ -1,14 +1,18 @@
 import readline = require("readline")
 
 function draw(num:number) {
+//var i :number = num - 1
+var a :number = 1;
+var b :number = 1;
+var c :number = 1;
 console.log("How many layers should be drawn?")
-var i:number = num - 1
-for(var a:number = 0; a < num; a++) {
 
-    for(var b:number = 0; b < num - i -1; b++) {
+for(a; a <= num; a++) {
+
+    for( b; b <= num - a; b++) {
         console.log(" ")
     }
-    for(var c:number = 0; c < 2*i-1; c++)
+    for( c; c < 2*a-1; c++)
         console.log("*")
         console.log("\n")
 
