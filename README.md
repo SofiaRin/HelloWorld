@@ -25,6 +25,8 @@ To be continued
 \*written in 2016-9-15\*
 
 
+![Kahlil Gibran](http://imgsrc.baidu.com/baike/pic/item/86d6277f9e2f0708116cc0a0e924b899a901f221.jpg)
+
 > _The reality of one person is not in what he reveals to you, but in what he can not reveal to you._
 > _——Kahlil Gibran_
 
@@ -35,4 +37,4 @@ To be continued
 
 
 
-![Kahlil Gibran](http://imgsrc.baidu.com/baike/pic/item/86d6277f9e2f0708116cc0a0e924b899a901f221.jpg)
+
