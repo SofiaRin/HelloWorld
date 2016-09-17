@@ -148,7 +148,8 @@ declare class NodeProcess extends EventEmitter {
 function draw(num:number) {
 //var i :number = num - 1
 var a,b,c:number;
-var spacestr, starstr:string;
+var spacestr, starstr, finalstr:string = "";
+
 for(a = 0 ; a < num; a++) { //0-层数num 共num次打印 结尾换行
 
      for( b = 0; b < (num - a - 1); b++) { // num - a - 1 第a层对应空格数
@@ -158,6 +159,8 @@ for(a = 0 ; a < num; a++) { //0-层数num 共num次打印 结尾换行
          starstr = starstr + "*";  //组合星号串
      }
      
+     finalstr = spacestr + starstr;
+     console.log(finalstr);  //两串组合作为一行输出
 
   }
 }
