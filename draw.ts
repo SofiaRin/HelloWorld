@@ -147,22 +147,24 @@ declare class NodeProcess extends EventEmitter {
 
 function draw(num:number) {
 //var i :number = num - 1
-var a,b,c:number
+var a,b,c:number;
+var spacestr, starstr:string;
 for(a = 0 ; a < num; a++) { //0-层数num 共num次打印 结尾换行
 
-     for( b = 0; b < num - a - 1; b++) { // num - a - 1 第a层对应空格数
-         console.log(" ")
+     for( b = 0; b < (num - a - 1); b++) { // num - a - 1 第a层对应空格数
+         spacestr  = spacestr + " ";  //组合空格串
      }
-     for( c = 0; c < 2*a+1; c++) {
-         console.log("*")
-         console.log("\n")
+     for( c = 0; c < (2*a+1); c++) {
+         starstr = starstr + "*";  //组合星号串
      }
+     
+
   }
 }
 
 declare var process: NodeProcess;
 
-console.log("How many layers should be drawn?")
+//console.log("How many layers should be drawn?")
 var x:string  = process.argv[2];  
 
 draw(+x)
