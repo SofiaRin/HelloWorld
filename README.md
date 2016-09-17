@@ -6,7 +6,7 @@ General
 *  就读于  北京工业大学 软件学院 数字媒体技术.
 
    
-hobbies
+Hobbies
 ----------
 *  热衷音视频剪辑/后期
     
@@ -19,7 +19,7 @@ hobbies
 *   不觉得写文章很烦，记叙文好久没写了..我也不知道
 *   比较喜欢《刺客信条》
 
-to be continued
+To be continued
 ----------------
    
 \*written in 2016-9-15\*
