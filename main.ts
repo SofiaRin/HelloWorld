@@ -1,1 +1,1 @@
-console.log("ok")
+console.log("homework code is in draw.ts")
